@@ -5,15 +5,15 @@ Projeto front-end da plataforma Ibinexos, com base no framework Bootstrap 5.
 ## Índice
 
 <!--ts-->
-    - [Tecnologias](#tecnologias)
-    - [Pré-requisitos](#pré-requisitos)
-    - [Instalação](#instalação)
-    - [Como usar](#como-usar)
-    - [Screenshots](#screenshots)
-    - [Status](#status)
-    - [Contribuição](#contribuição)
-    - [Autor](#autor)
-    - [Licença](#licença)
+- [Tecnologias](#tecnologias)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Como usar](#como-usar)
+- [Screenshots](#screenshots)
+- [Status](#status)
+- [Contribuição](#contribuição)
+- [Autor](#autor)
+- [Licença](#licença)
 <!--te-->
 
 ## Tecnologias
