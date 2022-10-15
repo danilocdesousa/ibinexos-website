@@ -1,0 +1,23 @@
+{
+  "name": "ibinexos-website",
+  "version": "1.0.0",
+  "description": "Projeto front-end da plataforma Ibinexos, com base no framework Bootstrap 5.",
+  "source": "./src/index.html",
+  "scripts": {
+    "dev": "parcel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilocdesousa/ibinexos-website.git"
+  },
+  "keywords": [],
+  "author": "Danilo S.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilocdesousa/ibinexos-website/issues"
+  },
+  "homepage": "https://github.com/danilocdesousa/ibinexos-website#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
