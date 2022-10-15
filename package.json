@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/danilocdesousa/ibinexos-website#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
     "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2"
   }
 }
