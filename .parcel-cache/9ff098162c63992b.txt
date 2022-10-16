@@ -1,8 +1,11 @@
-4855
-92/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/src/scss/style.scss1665812584511842652 0
-86/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/src/js/app.js1665811299454761930 0
-79/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/src/js1665808984192367760 1
-76/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/src1665810514176435013 1
+4860
+104/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/src/assets/scss/_variables.scss1665812620601041517 0
+88/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/src/assets/scss1665812505273406054 1
+93/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/src/assets/js/app.js1665813166352048638 0
+86/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/src/assets/js1665872766699115721 1
+76/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/src1665872760783037866 1
+95/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/dist/index.4257ad4e.js1665932416910101041 0
+100/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/dist/index.15d68e64.css.map1665932416910101041 0
 99/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/dist/index.59a40e7a.js.map1665812582433831203 0
 100/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/dist/index.e8265c92.css.map1665812582433831203 0
 95/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/dist/index.59a40e7a.js1665812582427831170 0
@@ -108,8 +111,8 @@
 140/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@popperjs/core/dist/esm/dom-utils/listScrollParents.js1665809991688556063 0
 139/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@popperjs/core/dist/esm/dom-utils/isLayoutViewport.js1665809991687556058 0
 133/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@popperjs/core/dist/esm/dom-utils/instanceOf.js1665809991687556058 0
-85/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/package.json1665810809958064770 0
-88/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/dist/index.html1665812582427831170 0
+85/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/package.json1665932346245152111 0
+88/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/dist/index.html1665932416889101043 0
 138/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@popperjs/core/dist/esm/dom-utils/getWindowScroll.js1665809991687556058 0
 136/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@popperjs/core/dist/esm/dom-utils/getParentNode.js1665809991686556052 0
 138/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@popperjs/core/dist/esm/dom-utils/getOffsetParent.js1665809991685556046 0
@@ -343,6 +346,7 @@
 126/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/dom-serializer/lib/esm/foreignNames.d.ts1665801100714376442 0
 117/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/bootstrap/scss/helpers/_vr.scss1665809991222553495 0
 130/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/dom-serializer/lib/esm/foreignNames.d.ts.map1665801100420374736 0
+96/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/dist/index.15d68e64.css1665932416890101042 0
 121/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/dom-serializer/lib/esm/package.json1665801100322374168 0
 138/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js.flow1665809991582555479 0
 117/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/dom-serializer/lib/esm/index.js1665801100178373333 0
@@ -397,6 +401,7 @@
 104/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/posthtml/readme.md1665801100090372822 0
 107/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/posthtml/package.json1665801100014372381 0
 105/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/posthtml/lib/api.js1665801099800371140 0
+99/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/src/assets/scss/style.scss1665812584511842652 0
 113/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/to-regex-range/package.json1665810808888058874 0
 102/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/posthtml/license1665801099605370009 0
 133/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/posthtml/node_modules/posthtml-parser/readme.md1665801102722388089 0
@@ -993,7 +998,7 @@
 120/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/cosmiconfig/dist/Explorer.d.ts.map1665801100599375775 0
 122/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/cosmiconfig/dist/cacheWrapper.js.map1665801100519375311 0
 114/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/cosmiconfig/dist/readFile.js1665801100297374023 0
-87/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/src/index.html1665812066784989956 0
+87/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/src/index.html1665872802047580912 0
 111/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/cosmiconfig/dist/index.js1665801100240373692 0
 123/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/cosmiconfig/dist/getPropertyByPath.js1665801100188373391 0
 118/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/cosmiconfig/dist/ExplorerSync.js1665801100099372874 0
@@ -1196,7 +1201,6 @@
 117/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/caniuse-lite/data/regions/HR.js1665801102472386639 0
 117/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/caniuse-lite/data/regions/HN.js1665801102472386639 0
 117/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/caniuse-lite/data/regions/HK.js1665801102472386639 0
-97/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/src/scss/_variables.scss1665812620601041517 0
 117/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/caniuse-lite/data/regions/GW.js1665801102459386563 0
 138/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@popperjs/core/dist/esm/dom-utils/getDocumentRect.js1665809991684556041 0
 117/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/caniuse-lite/data/regions/GU.js1665801102459386563 0
@@ -1224,6 +1228,7 @@
 117/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/caniuse-lite/data/regions/DZ.js1665801102297385624 0
 117/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/caniuse-lite/data/regions/DO.js1665801102276385502 0
 117/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/caniuse-lite/data/regions/DJ.js1665801102269385461 0
+99/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/dist/index.4257ad4e.js.map1665932416915101041 0
 117/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/caniuse-lite/data/regions/DE.js1665801102265385438 0
 117/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/caniuse-lite/data/regions/CY.js1665801102251385357 0
 117/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/caniuse-lite/data/regions/CV.js1665801102250385351 0
@@ -1292,7 +1297,6 @@
 127/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/caniuse-lite/data/features/will-change.js1665801102916389214 0
 113/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/css-tree/lib/lexer/Lexer.js1665801101761382515 0
 121/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/caniuse-lite/data/features/webxr.js1665801102915389208 0
-81/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/src/scss1665812505273406054 1
 106/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/ordered-binary/tests1665801100241373698 1
 126/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/caniuse-lite/data/features/webworkers.js1665801102915389208 0
 100/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/posthtml/types1665801100128373043 1
@@ -3163,6 +3167,7 @@
 119/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@parcel/reporter-cli/src/emoji.js1665801103072390119 0
 112/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/bootstrap/js/dist/alert.js1665809990600550068 0
 127/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@parcel/core/lib/requests/AssetRequest.js1665801102887389046 0
+83/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/src/assets1665872766699115721 1
 117/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/caniuse-lite/data/regions/DK.js1665801102272385479 0
 134/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@parcel/package-manager/test/fixtures/packages/a1665801102491386749 1
 111/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@parcel/packager-html/lib1665801102055384220 1
@@ -3792,7 +3797,7 @@
 109/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@parcel/transformer-svg1665801101332380026 1
 128/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/htmlnano/lib/modules/removeOptionalTags.js1665801101114378762 0
 115/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/svgo/plugins/removeDoctype.js1665801101462380781 0
-77/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/dist1665812582437831225 1
+77/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/dist1665932416918101040 1
 107/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@parcel/cache/LICENSE1665801103824394481 0
 106/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@babel/highlight/lib1665801099815371227 1
 115/home/danilos/Documents/Projects/Ibinexos/Web/front-end/ibinexos-website/node_modules/@babel/highlight/lib/index.js1665801099964372091 0

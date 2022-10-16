@@ -4,7 +4,8 @@
   "description": "Projeto front-end da plataforma Ibinexos, com base no framework Bootstrap 5.",
   "source": "./src/index.html",
   "scripts": {
-    "dev": "parcel"
+    "dev": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
