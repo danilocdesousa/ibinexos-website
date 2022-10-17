@@ -15,4 +15,10 @@
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/root";
 
+@import "./abstracts/map-amends";
+
 @import "~bootstrap/scss/bootstrap";
+
+.text-custom-primary {
+    color: var(--bs-custom-primary);
+}
