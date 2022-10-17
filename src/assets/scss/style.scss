@@ -19,6 +19,17 @@
 
 @import "~bootstrap/scss/bootstrap";
 
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap');
+
+:root, body {
+    --bs-body-font-family: 'Noto Sans', sans-serif;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-family: 'Livvic', sans-serif;
+}
+
 .text-custom-primary {
     color: var(--bs-custom-primary);
 }
