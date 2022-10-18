@@ -1,6 +1,6 @@
-/* Utilities */
 // Colors
 $primary: #7751F1;
+// Colors end
 
 // Allows for customizing button radius independently from global border radius
 $border-radius-pill: 50rem;
@@ -10,9 +10,18 @@ $btn-border-radius-sm: $border-radius-pill;
 $btn-border-radius-lg: $border-radius-pill;
 // scss-docs-end border-radius-variables
 
-/* Components */
-// Navbar
+// Navbar padding
 $navbar-padding-y: 0.5rem;
+// Navbar padding end
 
+// Navbar toggler border
 $navbar-dark-toggler-border-color: transparent;
 $navbar-light-toggler-border-color: transparent;
+// Navbar toggler border end
+
+// Navbar toggler
+$navbar-toggler-border-radius: .375rem;
+$navbar-toggler-focus-width: none;
+$navbar-toggler-padding-y: none;
+$navbar-toggler-padding-x: none;
+// Navbar toggler end
