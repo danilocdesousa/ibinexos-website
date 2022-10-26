@@ -29,5 +29,8 @@ $navbar-toggler-padding-x: none;
 
 // Progress
 $progress-border-radius: $border-radius-sm;
-$progress-bg: var(--bs-custom-primary-25);
+$progress-bg: var(--bs-custom-light);
 $progress-bar-bg: var(--bs-custom-primary);
+
+// Tables
+$table-border-color: var(--bs-custom-primary-20);
