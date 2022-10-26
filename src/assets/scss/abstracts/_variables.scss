@@ -4,6 +4,7 @@ $primary: #7751F1;
 
 // Allows for customizing button radius independently from global border radius
 $border-radius-pill: 50rem;
+$border-radius-sm: .25rem;
 
 $btn-border-radius: $border-radius-pill;
 $btn-border-radius-sm: $border-radius-pill;
@@ -25,3 +26,6 @@ $navbar-toggler-focus-width: none;
 $navbar-toggler-padding-y: none;
 $navbar-toggler-padding-x: none;
 // Navbar toggler end
+
+// Progress
+$progress-border-radius: $border-radius-sm;

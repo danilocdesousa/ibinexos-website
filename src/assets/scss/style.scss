@@ -56,3 +56,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .jb-h-44_3{
     height: 44.3rem;
 }
+
+.progress {
+    --bs-progress-bg: var(--bs-custom-primary-25);
+}
