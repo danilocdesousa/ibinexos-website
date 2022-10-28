@@ -60,7 +60,7 @@
                             </a>
                             <ul class="dropdown-menu dropdown-menu-md-end text-small shadow-sm border-primary border-opacity-50">
                                 <li><a class="dropdown-item" href="./company-profile.html">Meu perfil</a></li>
-                                <li><a class="dropdown-item" href="./company-vacancie-infos.html">Criar vaga</a></li>
+                                <li><a class="dropdown-item" href="./company-vacancie-infos.html">Minhas vagas</a></li>
                                 <li><a class="dropdown-item" href="#">Ajuda</a></li>
                                 <li><a class="dropdown-item" href="#">Sair</a></li>
                             </ul>
@@ -71,8 +71,55 @@
         </nav>
     </header>
     <main class="flex-shrink-0">
-        <article class="container col-xxl-8 px-4 py-5 mt-5">
-            <div class="p-4 bg-white bg-opacity-75 rounded-3"></div>
+        <article class="container px-4 col-xxl-8 px-2 py-5 mt-5">
+            <div class="p-4 bg-white bg-opacity-75 rounded-3">
+                <h5 class="text-custom-secondary">Meu perfil</h5>
+                <div class="py-3 row">
+                    <div class="d-flex flex-column flex-sm-row">
+                        <div class="d-flex justify-content-center justify-content-sm-start">
+                            <img src="../../assets/img/user-default/briefcase-fill.svg" alt="Imagem de usuário" width="96" height="96"
+                                class="rounded-circle border border-2 border-primary border-opacity-25 mb-3 mb-sm-0">
+                        </div>
+                        <div class="ms-sm-3">
+                            <label for="formFile" class="form-label">Imagem de perfil</label>
+                            <input class="form-control" type="file" id="formFile">
+                        </div>
+                    </div>
+                </div>
+                <div class="text-primary">
+                    <hr>
+                </div>
+                <form class="row g-3">
+                    <div class="col-md-4">
+                        <label for="inputFirstName" class="form-label">Razão social</label>
+                        <input type="text" class="form-control" aria-label="First name" id="inputFirstName">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputLastName" class="form-label">CNPJ</label>
+                        <input type="text" class="form-control" aria-label="Last name" id="inputLastName">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="personGovId" class="form-label">Telefone</label>
+                        <input type="text" class="form-control" aria-label="Phone" id="phone">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputEmail" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword" class="form-label">Senha de cadastro</label>
+                      <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                    <div class="col-12">
+                        <label for="FormControlTextarea" class="form-label">Sobre a empresa</label>
+                        <textarea class="form-control" id="FormControlTextarea" rows="3"></textarea>
+                        <div id="aboutYouHelp" class="form-text">Fale um pouco sobre a empresa.</div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Salvar e voltar</button>
+                    </div>
+                  </form>
+            </div>
         </article>
     </main>
     <footer class="footer mt-auto">
