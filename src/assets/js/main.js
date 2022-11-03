@@ -1,7 +1,8 @@
 import 'bootstrap';
-/*
+
 "use strict";
 
+/*
 const progressStep = document.querySelectorAll('.progress-step');
 
 const formStep = document.querySelectorAll('.form-step');
