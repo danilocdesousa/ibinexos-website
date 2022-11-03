@@ -2,7 +2,6 @@ import 'bootstrap';
 
 "use strict";
 
-/*
 const progressStep = document.querySelectorAll('.progress-step');
 
 const formStep = document.querySelectorAll('.form-step');
@@ -40,8 +39,7 @@ const updateProgress = () => {
         if (i == (active - 1)) {
             step.classList.add('progress-active');
             formStep[i].classList.add('progress-active');
-            console.log('i');
+            console.log(`i: ${+i}`);
         }
     })
 }
- */
