@@ -8,8 +8,7 @@ const formStep = document.querySelectorAll('.form-step');
 
 const btnSubmit = document.querySelector('.form-btn-submit');
 const btnNext = document.querySelector('.btn-next');
-const btnPrev = document.querySelector('.btn-prev');
-const btnLeave = document.querySelector('.btn-leave');
+const btnPrev = document.querySelector('.btn');
 
 let active = 1;
 
@@ -44,5 +43,14 @@ const updateProgress = () => {
             step.classList.remove('progress-active');
             formStep[i].classList.remove('progress-active');
         }
-    })
+    });
+
+    // Enable/disable prev or next button
+    if (active === 1) {
+        btnPrev.disabled == true;
+    } else {
+        btnPrev.disabled == false;
+        btnNext.disabled == false;
+    }
+
 }
