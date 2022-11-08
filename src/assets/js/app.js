@@ -27,15 +27,11 @@ prevButton.addEventListener("click", () => {
 });
 
 const updateProgress = () => {
-    console.log(`steps.length: ${steps.length}`);
-    console.log(`enabled: ${enabled}`);
-
     // Add .enabled class for each list item
     steps.forEach((step, i) => {
         if (i == (enabled - 1)) {
             step.classList.add('text-primary');
             formSteps[i].classList.add('display-form');
-            console.log(`i: ${i}`)
         } else {
             step.classList.remove('text-primary');
             formSteps[i].classList.remove('display-form');
