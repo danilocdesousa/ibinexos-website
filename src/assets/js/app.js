@@ -1,10 +1,13 @@
 import 'bootstrap';
 
 "use strict";
+
+// Step form
 const prevButton = document.querySelector(".btn-prev");
 const nextButton = document.querySelector(".btn-next");
 const submitButton = document.querySelector(".btn-submit");
 const steps = document.querySelectorAll(".my-step");
+const formSteps = document.querySelectorAll(".form-step");
 let enabled = 1;
 
 nextButton.addEventListener("click", () => {
@@ -31,9 +34,11 @@ const updateProgress = () => {
     steps.forEach((step, i) => {
         if (i == (enabled - 1)) {
             step.classList.add('text-primary');
+            formSteps[i].classList.add('display-form');
             console.log(`i: ${i}`)
         } else {
             step.classList.remove('text-primary');
+            formSteps[i].classList.remove('display-form');
         }
     });
 
@@ -49,4 +54,4 @@ const updateProgress = () => {
         nextButton.classList.remove("d-none");
         submitButton.classList.add("d-none");
     }
-}
+};

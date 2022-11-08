@@ -17,6 +17,7 @@
     --bs-body-font-family: 'Noto Sans', sans-serif;
 }
 
+// Texts
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-family: 'Livvic', sans-serif;
 }
@@ -29,13 +30,21 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     color: var(--bs-custom-light);
 }
 
-/* Dropdown icon */
-
-.dropdown-toggle::after {
-    display: none;
-}
-
+// Font size
 .fs-7 {
     font-size: $small-font-size;
 }
 
+// Dropdown icon
+.dropdown-toggle::after {
+    display: none;
+}
+
+// Step form
+.ibiform .form-step {
+    display: none;
+}
+
+.ibiform .form-step.display-form {
+    display: flex;
+}
