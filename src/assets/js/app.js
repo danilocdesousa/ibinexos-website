@@ -3,6 +3,7 @@ import 'bootstrap';
 "use strict";
 const prevButton = document.querySelector(".btn-prev");
 const nextButton = document.querySelector(".btn-next");
+const submitButton = document.querySelector(".btn-submit");
 const steps = document.querySelectorAll(".my-step");
 let enabled = 1;
 
@@ -35,4 +36,17 @@ const updateProgress = () => {
             step.classList.remove('text-primary');
         }
     });
+
+    // Enable or disable prev and next buttons
+    if (enabled === 1) {
+        prevButton.classList.add("d-none");
+        submitButton.classList.add("d-none");
+    } else if (enabled === steps.length) {
+        nextButton.classList.add("d-none");
+        submitButton.classList.remove("d-none");
+    } else {
+        prevButton.classList.remove("d-none");
+        nextButton.classList.remove("d-none");
+        submitButton.classList.add("d-none");
+    }
 }
