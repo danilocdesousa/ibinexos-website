@@ -72,13 +72,264 @@
     </header>
     <main class="flex-shrink-0">
         <article class="container col-xxl-8 px-4 py-5 mt-5">
-            <div class="row d-flex flex-wrap-reverse">
+            <div class="row">
                 <div class="col-lg-3">
-                    <div class="p-4 bg-white bg-opacity-75 rounded-3 mb-4">
+                    <div class="p-3 bg-white bg-opacity-75 rounded-3 mb-4 my-progress">
+                        <h5 class="text-custom-secondary pb-2 mb-3">Minha vaga</h5>
+                        <ul class="row list-unstyled mb-0 my-progress-steps">
+                            <li class="col d-flex flex-column flex-lg-row align-items-center mb-4">
+                                <span class="text-custom-primary-50">
+                                    <span class="me-2 my-step text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-1-circle-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383h1.312Z"/></svg>
+                                    </span>
+                                </span>
+                                <span class="d-none d-sm-inline mt-sm-2 mt-lg-0">Informações</span>
+                            </li>
+                            <li class="col d-flex flex-column flex-lg-row align-items-center mb-4">
+                                <span class="text-custom-primary-50">
+                                    <span class="me-2 my-step"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-2-circle-fill" viewBox="0 0 16 16">
+                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM6.646 6.24c0-.691.493-1.306 1.336-1.306.756 0 1.313.492 1.313 1.236 0 .697-.469 1.23-.902 1.705l-2.971 3.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763 1.287-1.428 1.287-2.43 0-1.266-1.031-2.215-2.613-2.215-1.758 0-2.637 1.19-2.637 2.402v.065h1.271v-.07Z"/></svg>
+                                    </span>
+                                </span>
+                                <span class="d-none d-sm-inline mt-sm-2 mt-lg-0">Competências</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-9">
-                    <div class="p-4 bg-white bg-opacity-75 rounded-3 mb-4"></div>
+                    <div class="p-3 bg-white bg-opacity-75 rounded-3 mb-4">
+                        <form class="ibiform">
+                            <div class=""></div>
+                            <section class="row g-3 form-step display-form">
+                                <h5 class="text-custom-secondary">Informações básicas</h5>
+                                <div class="col-md-6">
+                                    <label for="inputFirstName" class="form-label">Seu perfil no LinkedIn</label>
+                                    <input type="text" class="form-control" aria-label="First name" id="inputFirstName">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputLastName" class="form-label">Em qual cidade você mora?</label>
+                                    <input type="text" class="form-control" aria-label="Last name" id="inputLastName">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="#" class="form-label">Seu momento profissional</label>
+                                    <select class="form-select" aria-label="Select">
+                                        <option selected>Selecionar</option>
+                                        <option value="1">Primeiro emprego</option>
+                                        <option value="2">Migrando de área</option>
+                                        <option value="3">Outro</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="#" class="form-label">Modalidade de trabalho preferida</label>
+                                    <select class="form-select" aria-label="Select">
+                                        <option selected>Selecionar</option>
+                                        <option value="1">Presencial</option>
+                                        <option value="2">Remoto</option>
+                                        <option value="3">Híbrido</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="personGovId" class="form-label">Telefone para contato</label>
+                                    <input type="text" class="form-control" aria-label="personGovId" id="personGovId">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="personGovId" class="form-label">Pretenção salarial</label>
+                                    <input type="text" class="form-control" aria-label="Phone" id="phone">
+                                </div>
+                            </section>
+                            <section class="row g-3 form-step">
+                                <h5 class="text-custom-secondary">Detalhes da sua formação</h5>
+                                <div class="col-12">
+                                    <label for="personGovId" class="form-label">Instituição de ensino</label>
+                                    <input type="text" class="form-control" aria-label="Phone" id="phone">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="personGovId" class="form-label">Cidade e Estado da instituição</label>
+                                    <input type="text" class="form-control" aria-label="Phone" id="phone">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="#" class="form-label">Nível de formação</label>
+                                    <select class="form-select" aria-label="Select">
+                                        <option selected>Selecionar</option>
+                                        <option value="1">Fundamental</option>
+                                        <option value="2">Médio</option>
+                                        <option value="3">Técnico</option>
+                                        <option value="3">Superior</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="personGovId" class="form-label">Área de estudo</label>
+                                    <input type="text" class="form-control" aria-label="Phone" id="phone">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="birthDate" class="form-label">Data de início</label>
+                                    <input type="month" class="form-control" id="birthDate">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="birthDate" class="form-label">Data de saída (ou previsão)</label>
+                                    <input type="month" class="form-control" id="birthDate">
+                                </div>
+                                
+                                <!-- Check: Atualmente matriculado -->
+
+                                <div class="form-check ms-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label class="form-check-label" for="flexCheckChecked">Atualmente matriculado</label>
+                                </div>
+
+                                <!-- Adicionar nova -->
+
+                                <span class="text-primary mt-0"><hr></span>
+
+                                <div class="d-grid d-md-flex justify-content-md-start my-0">
+                                    <button type="button" class="btn btn-sm btn-outline-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg me-1 mb-1" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/></svg>Adicionar nova</button>
+                                </div>
+
+                                <span class="text-primary my-0"><hr class="mb-0"></span>
+
+                            </section>
+                            <section class="row g-3 form-step">
+                                <h5 class="text-custom-secondary">Suas experiências profissionais</h5>
+                                <div class="col-12">
+                                    <label for="personGovId" class="form-label">Cargo</label>
+                                    <input type="text" class="form-control" aria-label="Phone" id="phone">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="personGovId" class="form-label">Empresa</label>
+                                    <input type="text" class="form-control" aria-label="Phone" id="phone">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="personGovId" class="form-label">Localidade</label>
+                                    <input type="text" class="form-control" aria-label="Phone" id="phone">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="birthDate" class="form-label">Data de início</label>
+                                    <input type="month" class="form-control" id="birthDate">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="birthDate" class="form-label">Data de saída</label>
+                                    <input type="month" class="form-control" id="birthDate">
+                                </div>
+                                <div class="col-12">
+                                    <label for="FormControlTextarea" class="form-label">Descrição</label>
+                                    <textarea class="form-control" id="FormControlTextarea" rows="3"></textarea>
+                                    <div id="aboutYouHelp" class="form-text">Fale sobre seu papel e experiência na empresa que você
+                                        informou.</div>
+                                </div>
+
+                                <!-- Check: É meu emprego atual -->
+
+                                <div class="form-check ms-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label class="form-check-label" for="flexCheckChecked">É meu emprego atual</label>
+                                </div>
+
+                                <!-- Adicionar nova -->
+
+                                <span class="text-primary mt-0"><hr></span>
+
+                                <div class="d-grid d-md-flex justify-content-md-start my-0">
+                                    <button type="button" class="btn btn-sm btn-outline-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg me-1 mb-1" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/></svg>Adicionar nova</button>
+                                </div>
+
+                                <span class="text-primary my-0"><hr class="mb-0"></span>
+
+                            </section>
+                            <section class="row g-3 form-step">
+                                <h5 class="text-custom-secondary">Suas experiências profissionais</h5>
+                                <div>
+                                    <div class="table-responsive bg-white bg-opacity-75 p-2 rounded-1">
+                                        <h5>Competências adicionadas</h5>
+                                        <table class="table">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">Competência</th>
+                                                <th scope="col">Seu nível</th>
+                                                <th scope="col"></th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>Trabalho em equipe</td>
+                                                <td>Alto</td>
+                                                <td class="p-1 text-end">
+                                                    <button type="button" class="btn btn-sm btn-link"><span class="text-custom-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/></svg></span>
+                                                    </button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>Inteligência emocional</td>
+                                                <td>Alto</td>
+                                                <td class="p-1 text-end">
+                                                    <button type="button" class="btn btn-sm btn-link"><span class="text-custom-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/></svg></span>
+                                                    </button>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="bg-white bg-opacity-75 p-2 rounded-1">
+                                        <h5>Adicionar competência</h5>
+                                        <section class="row g-3 form-step display-form">
+                                            <div class="col-md-6">
+                                                <label for="inputFirstName" class="form-label">Competência</label>
+                                                <input type="text" class="form-control" aria-label="First name" id="inputFirstName">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="#" class="form-label">Seu nível nessa competência</label>
+                                                <select class="form-select" aria-label="Select">
+                                                    <option selected>Baixo</option>
+                                                    <option value="1">Médio</option>
+                                                    <option value="2">Alto</option>
+                                                </select>
+                                            </div>
+                                            <div class="d-grid d-md-flex justify-content-md-start my-3">
+                                                <button type="button" class="btn btn-sm btn-outline-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg me-1 mb-1" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/></svg>Adicionar</button>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="bg-white bg-opacity-75 p-2 rounded-1">
+                                        <h5>Sugestões</h5>
+                                        <div class="gap-2 justify-content-md-start my-3">
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Comunicação</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Resolução de problemas</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Liderança</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Autonomia</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Comprometimento</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Pensamento crítico</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Criatividade</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Criatividade</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Criatividade</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Criatividade</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Check: Sem competências ainda -->
+
+                                <div class="form-check ms-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label class="form-check-label" for="flexCheckChecked">Sem competências ainda</label>
+                                </div>
+                            </section>
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-start my-3 my-btn-group">
+                                <button type="button" class="btn btn-primary btn-next">Avançar</button>
+                                <a class="btn btn-primary btn-submit d-none" href="./company-dashboard.html">Salvar e sair</a>
+                                <button type="button" class="btn btn-outline-primary btn-prev d-none">Voltar</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </article>
@@ -93,6 +344,7 @@
 
     <!-- Scripts -->
     <script type="module" src="../../assets/js/main.js"></script>
+    <script type="module" src="../../assets/js/app.js"></script>
 </body>
 
 </html>
