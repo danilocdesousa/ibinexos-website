@@ -185,6 +185,25 @@
                                     <label for="birthDate" class="form-label">Data de saída (ou previsão)</label>
                                     <input type="month" class="form-control" id="birthDate">
                                 </div>
+                                
+                                <!-- Check: Atualmente matriculado -->
+
+                                <div class="form-check ms-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label class="form-check-label" for="flexCheckChecked">Atualmente matriculado</label>
+                                </div>
+
+                                <!-- Adicionar nova -->
+
+                                <span class="text-primary mt-0"><hr></span>
+
+                                <div class="d-grid d-md-flex justify-content-md-start my-0">
+                                    <button type="button" class="btn btn-sm btn-outline-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg me-1 mb-1" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/></svg>Adicionar nova</button>
+                                </div>
+
+                                <span class="text-primary my-0"><hr class="mb-0"></span>
+
                             </section>
                             <section class="row g-3 form-step">
                                 <h5 class="text-custom-secondary">Suas experiências profissionais</h5>
@@ -214,34 +233,110 @@
                                     <div id="aboutYouHelp" class="form-text">Fale sobre seu papel e experiência na empresa que você
                                         informou.</div>
                                 </div>
+
+                                <!-- Check: É meu emprego atual -->
+
+                                <div class="form-check ms-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label class="form-check-label" for="flexCheckChecked">É meu emprego atual</label>
+                                </div>
+
+                                <!-- Adicionar nova -->
+
+                                <span class="text-primary mt-0"><hr></span>
+
+                                <div class="d-grid d-md-flex justify-content-md-start my-0">
+                                    <button type="button" class="btn btn-sm btn-outline-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg me-1 mb-1" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/></svg>Adicionar nova</button>
+                                </div>
+
+                                <span class="text-primary my-0"><hr class="mb-0"></span>
+
                             </section>
                             <section class="row g-3 form-step">
                                 <h5 class="text-custom-secondary">Suas experiências profissionais</h5>
-                                <div class="col-12">
-                                    <label for="personGovId" class="form-label">Cargo</label>
-                                    <input type="text" class="form-control" aria-label="Phone" id="phone">
+                                <div>
+                                    <div class="table-responsive bg-white bg-opacity-75 p-2 rounded-1">
+                                        <h5>Competências adicionadas</h5>
+                                        <table class="table">
+                                            <thead>
+                                              <tr>
+                                                <th scope="col">Competência</th>
+                                                <th scope="col">Seu nível</th>
+                                                <th scope="col"></th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>Trabalho em equipe</td>
+                                                <td>Alto</td>
+                                                <td class="p-1 text-end">
+                                                    <button type="button" class="btn btn-sm btn-link"><span class="text-custom-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/></svg></span>
+                                                    </button>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td>Inteligência emocional</td>
+                                                <td>Alto</td>
+                                                <td class="p-1 text-end">
+                                                    <button type="button" class="btn btn-sm btn-link"><span class="text-custom-danger"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/></svg></span>
+                                                    </button>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                    </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <label for="personGovId" class="form-label">Empresa</label>
-                                    <input type="text" class="form-control" aria-label="Phone" id="phone">
+
+                                <div>
+                                    <div class="bg-white bg-opacity-75 p-2 rounded-1">
+                                        <h5>Adicionar competência</h5>
+                                        <section class="row g-3 form-step display-form">
+                                            <div class="col-md-6">
+                                                <label for="inputFirstName" class="form-label">Competência</label>
+                                                <input type="text" class="form-control" aria-label="First name" id="inputFirstName">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="#" class="form-label">Seu nível nessa competência</label>
+                                                <select class="form-select" aria-label="Select">
+                                                    <option selected>Baixo</option>
+                                                    <option value="1">Médio</option>
+                                                    <option value="2">Alto</option>
+                                                </select>
+                                            </div>
+                                            <div class="d-grid d-md-flex justify-content-md-start my-3">
+                                                <button type="button" class="btn btn-sm btn-outline-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg me-1 mb-1" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/></svg>Adicionar</button>
+                                            </div>
+                                        </section>
+                                    </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <label for="personGovId" class="form-label">Localidade</label>
-                                    <input type="text" class="form-control" aria-label="Phone" id="phone">
+
+                                <div>
+                                    <div class="bg-white bg-opacity-75 p-2 rounded-1">
+                                        <h5>Sugestões</h5>
+                                        <div class="gap-2 justify-content-md-start my-3">
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Comunicação</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Resolução de problemas</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Liderança</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Autonomia</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Comprometimento</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Pensamento crítico</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Criatividade</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Criatividade</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Criatividade</button>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-2">Criatividade</button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <label for="birthDate" class="form-label">Data de início</label>
-                                    <input type="month" class="form-control" id="birthDate">
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="birthDate" class="form-label">Data de saída</label>
-                                    <input type="month" class="form-control" id="birthDate">
-                                </div>
-                                <div class="col-12">
-                                    <label for="FormControlTextarea" class="form-label">Descrição</label>
-                                    <textarea class="form-control" id="FormControlTextarea" rows="3"></textarea>
-                                    <div id="aboutYouHelp" class="form-text">Fale sobre seu papel e experiência na empresa que você
-                                        informou.</div>
+
+                                <!-- Check: Sem competências ainda -->
+
+                                <div class="form-check ms-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                    <label class="form-check-label" for="flexCheckChecked">Sem competências ainda</label>
                                 </div>
                             </section>
                             <div class="d-grid gap-2 d-md-flex justify-content-md-start my-3 my-btn-group">
