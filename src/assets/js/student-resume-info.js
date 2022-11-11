@@ -1,5 +1,3 @@
-import 'bootstrap';
-
 "use strict";
 
 // Step form
