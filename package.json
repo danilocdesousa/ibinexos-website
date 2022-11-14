@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel",
     "build": "parcel build",
-    "build-no-optimize": "parcel build --no-optimize"
+    "build-no-optimize": "parcel build --no-optimize --dist-dir build"
   },
   "repository": {
     "type": "git",
